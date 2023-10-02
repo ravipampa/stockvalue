@@ -13,8 +13,8 @@ async def root(company_name : str):
     #previous_close_price = ticker['regularMarketPreviousClose']
     return {"Stock price of "+company_name+" is": market_price}
 
-if __name__ == "__main__":
-    import uvicorn
+#if __name__ == "__main__":
+#    import uvicorn
 
     # Run the FastAPI app with uvicorn
-    uvicorn.run(app, host="127.0.0.1", port=8000)
+ #   uvicorn.run(app, host="https://stockmarket-one.onrender.com/", port=80)
