@@ -1,6 +1,5 @@
 from fastapi import FastAPI
 import yfinance as yf
-import pandas as pd
 
 #df = pd.read_csv('company_names.csv')
 #df['company_name'] = df['company_name'].str.lower()
