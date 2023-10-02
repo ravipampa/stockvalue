@@ -2,4 +2,4 @@ fastapi
 
 yfinance
 
-install 
+uvicorn
