@@ -1,3 +1,5 @@
-pip install fastapi
+fastapi
 
-pip install yfinance
+yfinance
+
+install 
