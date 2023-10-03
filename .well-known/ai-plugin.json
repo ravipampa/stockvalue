@@ -1,0 +1,17 @@
+{
+    "schema_version": "v1",
+    "name_for_human": "Stock Current Price retriever (No Auth)",
+    "name_for_model": "GetCurrentStockPrice",
+    "description_for_human": "Get stock price of a company using input stock ticker value.",
+    "description_for_model": "Plugin for getting current or latest stock price by providing stock ticker as input.",
+    "auth": {
+        "type": "none"
+    },
+    "api": {
+        "type": "openapi",
+        "url": "https://stockpriceretriever.onrender.com/openapi.json"
+    },
+    "logo_url": "https://stockpriceretriever.onrender.com/logo.png",
+    "contact_email": "palepu.sk@gmail.com",
+    "legal_info_url": "https://stockpriceretriever.onrender.com"
+}
